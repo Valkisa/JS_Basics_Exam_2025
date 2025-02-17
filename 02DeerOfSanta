@@ -1,0 +1,16 @@
+function Santa(daysMissing, food, foodFor1, foorFor2, foorFor3){
+    let elen1 = daysMissing * foodFor1;
+    let elen2 = daysMissing * foorFor2;
+    let elen3 = daysMissing * foorFor3;
+
+    let totalFooDNeeded = elen1 + elen2 + elen3;
+    if(food >= totalFooDNeeded){
+        console.log(`${Math.floor(food - totalFooDNeeded)} kilos of food left.`);        
+    }
+    else{
+        console.log(`${Math.ceil(totalFooDNeeded - food)} more kilos of food are needed.`);      
+    }
+
+}
+Santa(5,10,2.1,0.8,11
+    )
