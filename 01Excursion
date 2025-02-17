@@ -1,0 +1,13 @@
+function excursion(people, nights, transportation, museumTicket){
+
+    let nightsPrice = nights * 20;
+    let transportationPrice = transportation * 1.6;
+    let museumTicketPrice = museumTicket * 6;
+
+    let total = nightsPrice + transportationPrice + museumTicketPrice;
+    let final = total * people
+    
+    console.log((final += (final *= 0.25)).toFixed(2));
+    
+}
+excursion(20, 14,30, 6)
